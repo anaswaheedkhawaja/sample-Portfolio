@@ -3,12 +3,13 @@ body {
     margin-left: 100px;
     margin-right: 100px;
     margin-top: auto;
-    background: linear-gradient(to bottom, #363543 50%, #282834 50%);}
+    background: linear-gradient(to bottom, #363543 41%, #282834 00%)}
+
 ul{
     margin-top: 5px;}
 .logo{
     color: #ffffff;}
-/*header*/
+    /*header*/
 .head1{
     display: flex;
     align-items: center;
@@ -132,7 +133,17 @@ div.name6{
     background-color: #464759;} 
 i {
     font-size: 20px;}
-/*Center*/
+/*Center-box*/
+.box{
+    background-color: #403f51;
+    padding: 30px 30px 30px 30px;
+    display: flex;
+    justify-content: space-around;}
+.photo1{
+    background-color: #36363e;
+    height: 70px;
+    padding: 10px 70px 10px 70px}
+    /*Center*/
 .center{
     display: flex;
     justify-content: space-between;
@@ -185,11 +196,6 @@ h3{
     color: #ffc83d;
     margin-left: 440px;}
 /*footer*/
-
-
-
-
-
 div.footer{}
 .circle {
     width: 55px;
